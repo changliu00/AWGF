@@ -1,4 +1,5 @@
 # [Understanding and Accelerating Particle-Based Variational Inference](http://proceedings.mlr.press/v97/liu19i.html)
+
 [Chang Liu][changliu] \<<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>\>,
 [Jingwei Zhuo][jingweizhuo], Pengyu Cheng, Ruiyi Zhang, [Jun Zhu][junzhu], and [Lawrence Carin][lcarin]. ICML 2019.
 
@@ -43,19 +44,20 @@ The methods are implemented in Python with [TensorFlow](https://www.tensorflow.o
 
 	Edit the settings file "bnn_set_kin8nm.py" to choose a setting, and then run the command
 	```bash
-		python bnn_run.py bnn_set_kin8nm.py
+	python bnn_run.py bnn_set_kin8nm.py
 	```
 	to conduct experiment under the specified settings.
 	Codes are developed based on the codes of [Liu & Wang (2016)][svgd-codes].
 
 * For the Latent Dirichlet Allocation experiment:
+
 	First run
 	```bash
-		python lda_build.py build_ext --inplace
+	python lda_build.py build_ext --inplace
 	```
 	to compile the [Cython](https://cython.org/) code, then run
 	```bash
-		python lda_run.py [a settings file beginning with 'lda_set_icml_']
+	python lda_run.py [a settings file beginning with 'lda_set_icml_']
 	```
 	to conduct experiment under the specified settings.
 
@@ -67,22 +69,22 @@ The methods are implemented in Python with [TensorFlow](https://www.tensorflow.o
 
 ## Citation
 ```
-	@InProceedings{liu2019understanding_a,
-	  title = 	 {Understanding and Accelerating Particle-Based Variational Inference},
-	  author = 	 {Liu, Chang and Zhuo, Jingwei and Cheng, Pengyu and Zhang, Ruiyi and Zhu, Jun and Carin, Lawrence},
-	  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
-	  pages = 	 {4082--4092},
-	  year = 	 {2019},
-	  editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
-	  volume = 	 {97},
-	  series = 	 {Proceedings of Machine Learning Research},
-	  address = 	 {Long Beach, California USA},
-	  month = 	 {09--15 Jun},
-	  publisher = 	 {PMLR},
-	  pdf = 	 {http://proceedings.mlr.press/v97/liu19i/liu19i.pdf},
-	  url = 	 {http://proceedings.mlr.press/v97/liu19i.html},
-	  organization={IMLS},
-	}
+@InProceedings{liu2019understanding_a,
+  title = 	 {Understanding and Accelerating Particle-Based Variational Inference},
+  author = 	 {Liu, Chang and Zhuo, Jingwei and Cheng, Pengyu and Zhang, Ruiyi and Zhu, Jun and Carin, Lawrence},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {4082--4092},
+  year = 	 {2019},
+  editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume = 	 {97},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Long Beach, California USA},
+  month = 	 {09--15 Jun},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/liu19i/liu19i.pdf},
+  url = 	 {http://proceedings.mlr.press/v97/liu19i.html},
+  organization={IMLS},
+}
 ```
 
 [changliu]: http://ml.cs.tsinghua.edu.cn/~changliu/index.html
