@@ -18,13 +18,16 @@ in either of the equivalent forms of smoothing density or smoothing functions.
 This treatment is compulsory, imposing a boundary on the flexibility of ParVIs.
 We develop two new ParVIs based on this finding.
 Inspired by the gradient flow interpretation, we improve ParVIs by utilizing
-Nesterov's acceleration method on Riemannian manifolds.
+Nesterov's acceleration methods on Riemannian manifolds
+(e.g., [Liu et al. (2017)](https://papers.nips.cc/paper/7072-accelerated-first-order-methods-for-geodesically-convex-optimization-on-riemannian-manifolds)
+and [Zhang & Sra (2018)](http://proceedings.mlr.press/v75/zhang18a/zhang18a.pdf))
+and leveraging the geometry of the Wasserstein space.
 The acceleration framework can be applied to all ParVIs.
 We also conceive a principled bandwidth selection method for the smoothing kernel that ParVIs use.
 
 The repository here implements the proposed acceleration framework along with the two new ParVIs and the bandwidth selection method.
 Other ParVIs ([SVGD][svgd-paper], [Blob][changyou-paper]) are also implemented.
-The methods are implemented in Python with [TensorFlow][https://www.tensorflow.org/].
+The methods are implemented in Python with [TensorFlow](https://www.tensorflow.org/).
 
 ## Instructions
 * For the synthetic experiment:
