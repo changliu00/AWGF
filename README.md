@@ -1,6 +1,6 @@
 # [Understanding and Accelerating Particle-Based Variational Inference](http://proceedings.mlr.press/v97/liu19i.html)
 
-[Chang Liu][changliu] \<<chang-li14@mails.tsinghua.edu.cn> (deprecated); <liuchangsmail@gmail.com>\>,
+[Chang Liu][changliu] \<~~<chang-li14@mails.tsinghua.edu.cn>~~; <liuchangsmail@gmail.com>\>,
 [Jingwei Zhuo][jingweizhuo], Pengyu Cheng, Ruiyi Zhang, [Jun Zhu][junzhu], and [Lawrence Carin][lcarin]. ICML 2019.
 
 \[[Paper & Appendix](http://ml.cs.tsinghua.edu.cn/~changliu/awgf/AWGF.pdf)\]
